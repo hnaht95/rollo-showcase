@@ -15,7 +15,7 @@
 3. App nhận ảnh mới ở lần mở kế tiếp (có thể chậm thêm tới 10 phút do bộ nhớ đệm của GitHub).
 
 - Tên file quyết định thứ tự: `01.jpg`, `02.jpg`… Xoá file là ảnh biến mất khỏi app. Xoá hết ảnh trong một thư mục thì app dùng lại ảnh có sẵn.
-- Định dạng: JPG, PNG, HEIC, WebP. Tối đa 12 ảnh mỗi thư mục, mỗi ảnh dưới 8MB.
+- Định dạng: JPG, PNG, HEIC, WebP, mỗi ảnh dưới 8MB. `home` tối đa 8 ảnh (thừa thì lấy 8 ảnh đầu theo tên); `settings` không giới hạn.
 - Nên nén trước: ảnh dọc 2:3, khoảng 1200 × 1800 px, JPEG chất lượng ~80% (300–500KB).
 - Repo này công khai và ảnh được đăng nguyên file: **xoá vị trí GPS trước khi upload** (iPhone: Chia sẻ → Tuỳ chọn → tắt Vị trí).
 
