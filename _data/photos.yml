@@ -1,7 +1,5 @@
-# Số tim ban đầu của từng ảnh (người dùng bấm tim thì +1 trên máy của họ).
-# Ảnh không có trong danh sách thì bắt đầu từ 0.
-# Tiêu đề lấy từ tên file, không cần điền ở đây. Muốn tiêu đề khác tên file thì thêm dòng title.
+# Không bắt buộc. Tiêu đề lấy từ tên file, thông số + máy chụp lấy từ EXIF của ảnh.
+# Chỉ dùng file này khi muốn tiêu đề khác tên file:
 #
-# "home/01 - Phố cổ buổi chiều.jpg":
-#   likes: 128
-#   title: Tiêu đề khác tên file   # không bắt buộc
+# "home/01 - Hàng Bạc.jpg":
+#   title: 12 Hàng Bạc, Hoàn Kiếm, Hà Nội
