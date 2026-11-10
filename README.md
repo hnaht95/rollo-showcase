@@ -9,13 +9,14 @@
 
 ## Thêm / đổi ảnh
 
-1. Mở thư mục `home` hoặc `settings` trên trang GitHub → **Add file → Upload files** → kéo ảnh vào → **Commit changes**.
-2. Khoảng 1 phút sau GitHub tự nén ảnh và đăng lên (xem tab **Actions**).
-3. App nhận ảnh mới ở lần mở kế tiếp (có thể chậm thêm vài phút do bộ nhớ đệm).
+1. Vào thư mục `home` hoặc `settings` → **Add file → Upload files** → kéo ảnh vào → **Commit changes**.
+   - Upload thẳng: https://github.com/hnaht95/rollo-showcase/upload/main/home và https://github.com/hnaht95/rollo-showcase/upload/main/settings
+2. Khoảng 1 phút sau GitHub Pages đăng xong (tab **Actions** hiện dấu xanh).
+3. App nhận ảnh mới ở lần mở kế tiếp (có thể chậm thêm tới 10 phút do bộ nhớ đệm của GitHub).
 
-- Đặt tên `01.jpg`, `02.jpg`… để quyết định thứ tự. Xoá file là ảnh biến mất khỏi app.
-- Nhận JPG, PNG, HEIC, WebP. Ảnh to cỡ nào cũng được: tự thu về tối đa 1200 × 1800 px.
-- Ảnh dọc tỉ lệ 2:3 hiển thị đẹp nhất.
-- Thông tin EXIF (vị trí GPS, máy chụp) bị xoá khỏi bản đăng lên, nhưng **file gốc trong repo vẫn còn** và repo này công khai. Nên xoá vị trí trước khi upload (iPhone: Chia sẻ → Tuỳ chọn → tắt Vị trí).
+- Tên file quyết định thứ tự: `01.jpg`, `02.jpg`… Xoá file là ảnh biến mất khỏi app. Xoá hết ảnh trong một thư mục thì app dùng lại ảnh có sẵn.
+- Định dạng: JPG, PNG, HEIC, WebP. Tối đa 12 ảnh mỗi thư mục, mỗi ảnh dưới 8MB.
+- Nên nén trước: ảnh dọc 2:3, khoảng 1200 × 1800 px, JPEG chất lượng ~80% (300–500KB).
+- Repo này công khai và ảnh được đăng nguyên file: **xoá vị trí GPS trước khi upload** (iPhone: Chia sẻ → Tuỳ chọn → tắt Vị trí).
 
-Ảnh được đăng tại `https://hnaht95.github.io/rollo-showcase/manifest.json`.
+Danh sách ảnh app đọc: https://hnaht95.github.io/rollo-showcase/manifest.json

@@ -1,0 +1,3 @@
+# GitHub Pages tự build (Jekyll) mỗi lần có thay đổi, tạo manifest.json liệt kê ảnh cho app Rollo.
+exclude:
+  - README.md
