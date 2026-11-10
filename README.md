@@ -4,8 +4,8 @@
 
 | Thư mục | Hiện ở đâu |
 |---|---|
-| `home/` | Ảnh bìa trang chủ. Có nhiều ảnh thì mỗi lần mở app chọn ngẫu nhiên 1 ảnh. |
-| `settings/` | Dải ảnh trượt đầu màn Cài đặt, theo thứ tự tên file. |
+| `home/` | Ảnh bìa trang chủ (mỗi lần mở app chọn ngẫu nhiên 1 ảnh), màn xem ảnh khi chạm vào ảnh bìa, và dải ảnh trượt đầu màn Cài đặt (từ build 124). |
+| `settings/` | Chỉ còn dùng cho các build 120–123. Từ build 124 màn Cài đặt dùng chung ảnh `home/`, có thể xoá thư mục này khi không còn ai dùng bản cũ. |
 
 ## Thêm / đổi ảnh
 
