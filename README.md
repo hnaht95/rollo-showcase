@@ -24,7 +24,7 @@
 ### Ảnh
 
 - Trang chủ: tỉ lệ **3:4**, khoảng 1200 × 1600 px. Cài đặt: tỉ lệ **2:3**, khoảng 1200 × 1800 px. JPEG chất lượng ~80%.
-- Định dạng: JPG, PNG, HEIC, WebP, mỗi ảnh dưới 8MB. `home` tối đa 8 ảnh (thừa thì lấy 8 ảnh đầu theo tên); `settings` không giới hạn.
+- Định dạng: JPG, PNG, HEIC, WebP, mỗi ảnh dưới 8MB. `home`: app hiện tối đa 8 ảnh; nhiều hơn 8 thì mỗi lần mở app chọn ngẫu nhiên 8 ảnh (giữ thứ tự theo tên), app tải tối đa 40 ảnh. `settings` không giới hạn.
 - Xoá file là ảnh biến mất khỏi app. Xoá hết ảnh trong một thư mục thì app dùng lại ảnh có sẵn.
 - Repo này công khai và ảnh được đăng nguyên file: **xoá vị trí GPS trước khi upload** (iPhone: Chia sẻ → Tuỳ chọn → tắt Vị trí), nhưng giữ các thông tin EXIF khác.
 
