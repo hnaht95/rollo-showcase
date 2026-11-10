@@ -14,13 +14,22 @@
 2. Khoảng 1 phút sau GitHub Pages đăng xong (tab **Actions** hiện dấu xanh).
 3. App nhận ảnh mới ở lần mở kế tiếp (có thể chậm thêm tới 10 phút do bộ nhớ đệm của GitHub).
 
-- Tên file quyết định thứ tự: `01.jpg`, `02.jpg`… Xoá file là ảnh biến mất khỏi app. Xoá hết ảnh trong một thư mục thì app dùng lại ảnh có sẵn.
+### Đặt tên file = tiêu đề ảnh
+
+- Tên file hiện làm tiêu đề ở màn xem ảnh: `Phố cổ buổi chiều.jpg` → "Phố cổ buổi chiều".
+- Thêm số ở đầu để xếp thứ tự, app tự bỏ phần số: `01 - Phố cổ buổi chiều.jpg`, `02_Hồ_Tây.jpg` (dấu `_` thành dấu cách).
+- File chỉ có số (`01.jpg`) thì không hiện tiêu đề.
+- Không đặt tên bắt đầu bằng `_` hoặc `.` (GitHub Pages bỏ qua những file này).
+
+### Ảnh
+
+- Trang chủ: tỉ lệ **3:4**, khoảng 1200 × 1600 px. Cài đặt: tỉ lệ **2:3**, khoảng 1200 × 1800 px. JPEG chất lượng ~80%.
 - Định dạng: JPG, PNG, HEIC, WebP, mỗi ảnh dưới 8MB. `home` tối đa 8 ảnh (thừa thì lấy 8 ảnh đầu theo tên); `settings` không giới hạn.
-- Nên nén trước: ảnh dọc 2:3, khoảng 1200 × 1800 px, JPEG chất lượng ~80% (300–500KB).
+- Xoá file là ảnh biến mất khỏi app. Xoá hết ảnh trong một thư mục thì app dùng lại ảnh có sẵn.
 - Repo này công khai và ảnh được đăng nguyên file: **xoá vị trí GPS trước khi upload** (iPhone: Chia sẻ → Tuỳ chọn → tắt Vị trí).
 
-## Thông tin ảnh và số tim
+## Số tim
 
-Sửa file [`_data/photos.yml`](_data/photos.yml) (bấm biểu tượng bút chì trên GitHub): tiêu đề, film, ISO, tốc độ, khẩu, ống kính, máy, ngày, nơi chụp, số tim. Mục nào bỏ trống thì app đọc từ EXIF của ảnh (nếu còn). Màu chủ đạo app tự tính, không cần điền.
+Sửa file [`_data/photos.yml`](_data/photos.yml) (bấm biểu tượng bút chì trên GitHub) để đặt số tim ban đầu cho từng ảnh. Người dùng bấm tim thì số tăng 1 trên máy của họ. Màu chủ đạo app tự tính.
 
 Danh sách ảnh app đọc: https://hnaht95.github.io/rollo-showcase/manifest.json

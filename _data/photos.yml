@@ -1,29 +1,7 @@
-# Thông tin hiện ở màn xem ảnh của app Rollo. Mỗi ảnh một mục, theo đường dẫn file.
-# Mục nào bỏ trống thì app dùng EXIF trong ảnh (nếu còn). Không cần điền đủ.
+# Số tim ban đầu của từng ảnh (người dùng bấm tim thì +1 trên máy của họ).
+# Ảnh không có trong danh sách thì bắt đầu từ 0.
+# Tiêu đề lấy từ tên file, không cần điền ở đây. Muốn tiêu đề khác tên file thì thêm dòng title.
 #
-# home/02.jpg:
-#   title: Phố cổ buổi chiều      # tiêu đề
-#   film: T-Slide                # tên film
-#   iso: 200
-#   shutter: 1/500
-#   aperture: f/1.8
-#   lens: 24mm
-#   camera: iPhone 16 Pro
-#   date: 12/10/2026
-#   place: Hà Nội
-#   likes: 128                   # số tim ban đầu
-
-# Ảnh hiện có (bỏ dấu # và điền thông tin thật):
-# home/01.jpg:
-#   title: Tiêu đề ảnh
-#   film: T-Slide
-#   iso: 100
-#   shutter: 1/250
-#   aperture: f/1.8
-#   lens: 24mm
-#   camera: iPhone 16 Pro
-#   place: Hà Nội
+# "home/01 - Phố cổ buổi chiều.jpg":
 #   likes: 128
-
-home/01.jpg:
-  likes: 0
+#   title: Tiêu đề khác tên file   # không bắt buộc
