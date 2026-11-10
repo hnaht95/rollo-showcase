@@ -1,0 +1,25 @@
+# Thông tin hiện ở màn xem ảnh của app Rollo. Mỗi ảnh một mục, theo đường dẫn file.
+# Mục nào bỏ trống thì app dùng EXIF trong ảnh (nếu còn). Không cần điền đủ.
+#
+# home/02.jpg:
+#   title: Phố cổ buổi chiều      # tiêu đề
+#   film: T-Slide                # tên film
+#   iso: 200
+#   shutter: 1/500
+#   aperture: f/1.8
+#   lens: 24mm
+#   camera: iPhone 16 Pro
+#   date: 12/10/2026
+#   place: Hà Nội
+#   likes: 128                   # số tim ban đầu
+
+home/01.jpg:
+  title: VÍ DỤ - sửa lại
+  film: T-Slide
+  iso: 100
+  shutter: 1/250
+  aperture: f/1.8
+  lens: 24mm
+  camera: iPhone 16 Pro
+  place: Hà Nội
+  likes: 128

@@ -19,4 +19,8 @@
 - Nên nén trước: ảnh dọc 2:3, khoảng 1200 × 1800 px, JPEG chất lượng ~80% (300–500KB).
 - Repo này công khai và ảnh được đăng nguyên file: **xoá vị trí GPS trước khi upload** (iPhone: Chia sẻ → Tuỳ chọn → tắt Vị trí).
 
+## Thông tin ảnh và số tim
+
+Sửa file [`_data/photos.yml`](_data/photos.yml) (bấm biểu tượng bút chì trên GitHub): tiêu đề, film, ISO, tốc độ, khẩu, ống kính, máy, ngày, nơi chụp, số tim. Mục nào bỏ trống thì app đọc từ EXIF của ảnh (nếu còn). Màu chủ đạo app tự tính, không cần điền.
+
 Danh sách ảnh app đọc: https://hnaht95.github.io/rollo-showcase/manifest.json

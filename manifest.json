@@ -6,5 +6,6 @@ layout: null
 {
   "revision": {{ site.github.build_revision | jsonify }},
   "home": [{% for f in home %}{{ f.path | remove_first: "/" | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
-  "settings": [{% for f in settings %}{{ f.path | remove_first: "/" | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}]
+  "settings": [{% for f in settings %}{{ f.path | remove_first: "/" | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "info": {{ site.data.photos | jsonify }}
 }
